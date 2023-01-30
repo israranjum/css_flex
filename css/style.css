@@ -1,0 +1,109 @@
+/* 
+    display flex
+    flex-direction(row, column)
+    flex-wrap flex-flow
+    justify content(
+        flex start
+        flex end
+        space-around
+        space-between
+        space-evenly
+        center
+    )
+    align-item(
+        flex start
+        flex end
+        center
+        stetch
+        basline
+
+    )
+    align-content(
+    space-around
+    space-between
+    space-evenly
+    )
+    align-self()
+    flex-basis()
+    margin-auto
+*/
+
+body{
+    margin: auto;
+}
+
+.container{
+    background-color: red;
+    border: 1px solid black;
+    display: flex;
+    /* flex-direction: column; */
+    height: 100px;
+    /* flex-wrap:wrap-reverse; */
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: space-evenly;
+    
+
+}
+
+.item{
+    border: 1px solid yellow;
+    width: 100px;
+    margin: 10px auto;
+    color: white;
+    /* display: flex; */
+
+}
+
+.item1{
+    background-color: blue;
+    align-self: center;
+
+}
+.item2{
+    background-color: blue;
+    font-size: 30px;
+    
+}
+.item3{
+    background-color: blue;
+    align-self: center;
+   
+    
+}
+.item4{
+    background-color: blue;
+    /* order: -3; */
+    
+}
+.item5{
+    background-color: blue;
+    align-self: center;
+    flex-grow: 1;
+    
+}
+.item6{
+    background-color: blue;
+    flex-basis: 200px;
+    
+    
+}
+.item7{
+    background-color: blue;
+    
+    
+}
+.item8{
+    background-color: blue;
+    
+    
+}
+.item9{
+    background-color: blue;
+    
+}
+.item10{
+    background-color: blue;
+    flex-grow: 2;
+    
+}
